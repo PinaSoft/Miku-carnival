@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CC27FA51FBB7C520008AA10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC27FA41FBB7C520008AA10 /* AppDelegate.swift */; };
+		7CC27FA71FBB7C520008AA10 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC27FA61FBB7C520008AA10 /* art.scnassets */; };
+		7CC27FA91FBB7C520008AA10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC27FA81FBB7C520008AA10 /* ViewController.swift */; };
+		7CC27FAC1FBB7C520008AA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC27FAA1FBB7C520008AA10 /* Main.storyboard */; };
+		7CC27FAE1FBB7C520008AA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC27FAD1FBB7C520008AA10 /* Assets.xcassets */; };
+		7CC27FB11FBB7C520008AA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC27FAF1FBB7C520008AA10 /* LaunchScreen.storyboard */; };
+		7CC27FBC1FBB7C520008AA10 /* Miku_carnivalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC27FBB1FBB7C520008AA10 /* Miku_carnivalTests.swift */; };
+		7CC27FC71FBB7C520008AA10 /* Miku_carnivalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC27FC61FBB7C520008AA10 /* Miku_carnivalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC27FB81FBB7C520008AA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC27F991FBB7C520008AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC27FA01FBB7C520008AA10;
+			remoteInfo = "Miku carnival";
+		};
+		7CC27FC31FBB7C520008AA10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC27F991FBB7C520008AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC27FA01FBB7C520008AA10;
+			remoteInfo = "Miku carnival";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CC27FA11FBB7C520008AA10 /* Miku carnival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miku carnival.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC27FA41FBB7C520008AA10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC27FA61FBB7C520008AA10 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7CC27FA81FBB7C520008AA10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC27FAB1FBB7C520008AA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC27FAD1FBB7C520008AA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC27FB01FBB7C520008AA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC27FB21FBB7C520008AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC27FB71FBB7C520008AA10 /* Miku carnivalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miku carnivalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC27FBB1FBB7C520008AA10 /* Miku_carnivalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miku_carnivalTests.swift; sourceTree = "<group>"; };
+		7CC27FBD1FBB7C520008AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC27FC21FBB7C520008AA10 /* Miku carnivalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miku carnivalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC27FC61FBB7C520008AA10 /* Miku_carnivalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miku_carnivalUITests.swift; sourceTree = "<group>"; };
+		7CC27FC81FBB7C520008AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC27F9E1FBB7C520008AA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FB41FBB7C520008AA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FBF1FBB7C520008AA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC27F981FBB7C520008AA10 = {
+			isa = PBXGroup;
+			children = (
+				7CC27FA31FBB7C520008AA10 /* Miku carnival */,
+				7CC27FBA1FBB7C520008AA10 /* Miku carnivalTests */,
+				7CC27FC51FBB7C520008AA10 /* Miku carnivalUITests */,
+				7CC27FA21FBB7C520008AA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC27FA21FBB7C520008AA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC27FA11FBB7C520008AA10 /* Miku carnival.app */,
+				7CC27FB71FBB7C520008AA10 /* Miku carnivalTests.xctest */,
+				7CC27FC21FBB7C520008AA10 /* Miku carnivalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC27FA31FBB7C520008AA10 /* Miku carnival */ = {
+			isa = PBXGroup;
+			children = (
+				7CC27FA41FBB7C520008AA10 /* AppDelegate.swift */,
+				7CC27FA61FBB7C520008AA10 /* art.scnassets */,
+				7CC27FA81FBB7C520008AA10 /* ViewController.swift */,
+				7CC27FAA1FBB7C520008AA10 /* Main.storyboard */,
+				7CC27FAD1FBB7C520008AA10 /* Assets.xcassets */,
+				7CC27FAF1FBB7C520008AA10 /* LaunchScreen.storyboard */,
+				7CC27FB21FBB7C520008AA10 /* Info.plist */,
+			);
+			path = "Miku carnival";
+			sourceTree = "<group>";
+		};
+		7CC27FBA1FBB7C520008AA10 /* Miku carnivalTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC27FBB1FBB7C520008AA10 /* Miku_carnivalTests.swift */,
+				7CC27FBD1FBB7C520008AA10 /* Info.plist */,
+			);
+			path = "Miku carnivalTests";
+			sourceTree = "<group>";
+		};
+		7CC27FC51FBB7C520008AA10 /* Miku carnivalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC27FC61FBB7C520008AA10 /* Miku_carnivalUITests.swift */,
+				7CC27FC81FBB7C520008AA10 /* Info.plist */,
+			);
+			path = "Miku carnivalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC27FA01FBB7C520008AA10 /* Miku carnival */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC27FCB1FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnival" */;
+			buildPhases = (
+				7CC27F9D1FBB7C520008AA10 /* Sources */,
+				7CC27F9E1FBB7C520008AA10 /* Frameworks */,
+				7CC27F9F1FBB7C520008AA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Miku carnival";
+			productName = "Miku carnival";
+			productReference = 7CC27FA11FBB7C520008AA10 /* Miku carnival.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC27FB61FBB7C520008AA10 /* Miku carnivalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC27FCE1FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnivalTests" */;
+			buildPhases = (
+				7CC27FB31FBB7C520008AA10 /* Sources */,
+				7CC27FB41FBB7C520008AA10 /* Frameworks */,
+				7CC27FB51FBB7C520008AA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC27FB91FBB7C520008AA10 /* PBXTargetDependency */,
+			);
+			name = "Miku carnivalTests";
+			productName = "Miku carnivalTests";
+			productReference = 7CC27FB71FBB7C520008AA10 /* Miku carnivalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC27FC11FBB7C520008AA10 /* Miku carnivalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC27FD11FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnivalUITests" */;
+			buildPhases = (
+				7CC27FBE1FBB7C520008AA10 /* Sources */,
+				7CC27FBF1FBB7C520008AA10 /* Frameworks */,
+				7CC27FC01FBB7C520008AA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC27FC41FBB7C520008AA10 /* PBXTargetDependency */,
+			);
+			name = "Miku carnivalUITests";
+			productName = "Miku carnivalUITests";
+			productReference = 7CC27FC21FBB7C520008AA10 /* Miku carnivalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC27F991FBB7C520008AA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Luis Enrique Piña Juarez";
+				TargetAttributes = {
+					7CC27FA01FBB7C520008AA10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					7CC27FB61FBB7C520008AA10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC27FA01FBB7C520008AA10;
+					};
+					7CC27FC11FBB7C520008AA10 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CC27FA01FBB7C520008AA10;
+					};
+				};
+			};
+			buildConfigurationList = 7CC27F9C1FBB7C520008AA10 /* Build configuration list for PBXProject "Miku carnival" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC27F981FBB7C520008AA10;
+			productRefGroup = 7CC27FA21FBB7C520008AA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC27FA01FBB7C520008AA10 /* Miku carnival */,
+				7CC27FB61FBB7C520008AA10 /* Miku carnivalTests */,
+				7CC27FC11FBB7C520008AA10 /* Miku carnivalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC27F9F1FBB7C520008AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC27FA71FBB7C520008AA10 /* art.scnassets in Resources */,
+				7CC27FB11FBB7C520008AA10 /* LaunchScreen.storyboard in Resources */,
+				7CC27FAE1FBB7C520008AA10 /* Assets.xcassets in Resources */,
+				7CC27FAC1FBB7C520008AA10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FB51FBB7C520008AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FC01FBB7C520008AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC27F9D1FBB7C520008AA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC27FA91FBB7C520008AA10 /* ViewController.swift in Sources */,
+				7CC27FA51FBB7C520008AA10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FB31FBB7C520008AA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC27FBC1FBB7C520008AA10 /* Miku_carnivalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC27FBE1FBB7C520008AA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC27FC71FBB7C520008AA10 /* Miku_carnivalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC27FB91FBB7C520008AA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC27FA01FBB7C520008AA10 /* Miku carnival */;
+			targetProxy = 7CC27FB81FBB7C520008AA10 /* PBXContainerItemProxy */;
+		};
+		7CC27FC41FBB7C520008AA10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC27FA01FBB7C520008AA10 /* Miku carnival */;
+			targetProxy = 7CC27FC31FBB7C520008AA10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC27FAA1FBB7C520008AA10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC27FAB1FBB7C520008AA10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC27FAF1FBB7C520008AA10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC27FB01FBB7C520008AA10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC27FC91FBB7C520008AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC27FCA1FBB7C520008AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC27FCC1FBB7C520008AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC27FCD1FBB7C520008AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnival/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnival";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CC27FCF1FBB7C520008AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnivalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnivalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miku carnival.app/Miku carnival";
+			};
+			name = Debug;
+		};
+		7CC27FD01FBB7C520008AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnivalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnivalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miku carnival.app/Miku carnival";
+			};
+			name = Release;
+		};
+		7CC27FD21FBB7C520008AA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnivalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnivalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Miku carnival";
+			};
+			name = Debug;
+		};
+		7CC27FD31FBB7C520008AA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VF3F33KX9R;
+				INFOPLIST_FILE = "Miku carnivalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VR.Miku-carnivalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Miku carnival";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC27F9C1FBB7C520008AA10 /* Build configuration list for PBXProject "Miku carnival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC27FC91FBB7C520008AA10 /* Debug */,
+				7CC27FCA1FBB7C520008AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC27FCB1FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnival" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC27FCC1FBB7C520008AA10 /* Debug */,
+				7CC27FCD1FBB7C520008AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC27FCE1FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnivalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC27FCF1FBB7C520008AA10 /* Debug */,
+				7CC27FD01FBB7C520008AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC27FD11FBB7C520008AA10 /* Build configuration list for PBXNativeTarget "Miku carnivalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC27FD21FBB7C520008AA10 /* Debug */,
+				7CC27FD31FBB7C520008AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CC27F991FBB7C520008AA10 /* Project object */;
+}
